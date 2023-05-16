@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt forma</title>
+</head>
+<body>
+    <form action="posalji-poruku">
+        <label for="ime">Ime:</label>
+        <input type="text" id="ime" required placeholder="Unesite svoje ime">
+        <br>
+        <label for="prezime">Prezime:</label>
+        <input type="text" id="prezime" required  placeholder="Unesite prezime">
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email|" id="email"  placeholder="Unesite e-mail">
+        <br>
+        <label for="godine">Godine</label>
+        <input type="number" id="godine" placeholder="Unesite godine" min="1" max="150">
+        <br>
+<br>
+<br>
+<label for="grad">Grad:</label>
+<select name="" id="grad">
+    <option value="">odaberite grad</option>
+    <option value="1">Podgorica</option>
+    <option value="2">Bar</option>
+    <option value="3">Kolasin</option>
+</select>
+    
+
+
+<input type="submit" value="POSALJI PORUKU">
+
+        
+
+
+        <input type="checkbox" id="uslovi koriscenja"> 
+        <label for="uslovi koriscenja">Prihvatam uslove koriscenja</label>
+
+    </form>
+</body>
+</html>
